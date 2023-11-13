@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+
+
+    <style>
+        .topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+
+.topnav{
+  position: fixed;
+  right: 490px;
+  transition: top 0.3s;
+  padding: 0px 70px 0px 100px;
+  border-radius: 10px;
+}
+.topnav a {
+  float:left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #cb261a;
+  color: white;
+}
+
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+img:hover{
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  box-shadow: 10px 10px 5px #0e0d0d;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+li a:hover:not(.active) 
+{
+    background-color: #111;
+}
+
+body {
+      text-align: center;
+      font-size: 25px;
+      max-width: 1000px;
+      padding-left: 250px;
+
+    }
+
+
+
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .skills-column {
+      width: 20%;
+      margin-left: 160px;
+      text-align: left;
+    }
+.format{
+    max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+}
+
+
+    </style>
+
+<div class="topnav">
+    <a class = "active" href="index.html">Home</a>
+    <a href="resume.html">Resume</a>
+    <a href="contact.html">Contact Info</a>
+  </div>
+</head>
+<body style = "background-color:darkgray">
+    
+
+
+<br>
+<div id ="display">
+  <h1><pre>Michael Quiñones</pre></h1>
+  <p>Bachelor’s in Computer Engineering (Expected Graduation: May 2024) with a GPA of 3.90.</p>
+  <p>Experience includes software development at Google, cybersecurity/IT internship with the DoD, and SharePoint web development internship.</p>
+  <p>Leadership role as a Student Advocate at CAHSI, leading sessions and facilitating conferences.</p>
+  <h2>Skills</h2>
+  <div class="skills-container">
+    <div class="skills-column">
+      <p>C++</p>
+      <p>Java</p>
+      <p>Python</p>
+      <p>JavaScript</p>
+    </div>
+    <div class="skills-column">
+      <p>HTML</p>
+      <p>CSS</p>
+      <p>Git</p>
+      <p>Computer Reimaging</p>
+    </div>
+  </div>
+  <h2>Experience</h2>
+  
+  <div class ="format">
+  <p><strong>Experience at First Army's 2022 Internship <u>Click image</u></strong></p>
+  
+  
+  <a href = "https://www.first.army.mil/News/ArticleView/Article/3073674/interns-bring-enthusiasm-and-diversity-to-first-army/" target = "_blank"><img src = "2022_Internship.png"></a>
+  
+  <p>Interned at the Information Systems Department (ISD G6-signals), First Army HQ, responsible for training, mobilization, and deployment of reserve units.</p>
+
+  <p>As an IT specialist at First Army HQ, responsibilities included:</p>
+
+  <ul>
+    <li>Providing computer reimaging and networking assistance for a classified military exercise.</li>
+    <li>Offering Information Technology asset management services, enhancing performance and security for military/civilian personnel.</li>
+    <li>Delivering help desk services for the 10 First Army directorates, shadowing/assisting in government phone setups, and office maintenance for the command general.</li>
+    <li>Concluding the internship with a final briefing to senior leaders of the Army, covering all completed tasks and lessons learned during the time of duty.</li>
+  </ul>
+
+  <br>
+  <p><strong>Experience at First Army's 2023 Internship <u>Click image</u></strong></p>
+  <a href = "https://www.army.mil/article/268392/first_army_intern_program_a_success_once_again" target = "_blank"><img src = "2023_Internship.png"></a>
+
+  <p>As a SharePoint Web Developer for First Army HQ, responsibilities included:</p>
+
+  <ol>
+    <li>Migrating G-2’s security onboarding process from physical to virtual, improving efficiency.</li>
+    <li>Building First Army’s intern portal, guiding interns through DoD account setup, Microsoft 365 licensing, 2875 completion, and providing information about military ranks.</li>
+    <li>Creating a dynamically programmed table on the website for interns, listing current activities in the Quad Cities with links, and connecting First Army’s website with JMC’s for efficient navigation.</li>
+    <li>Developing First Army’s chatbot on the website, automatically responding to user questions about processes and procedures without human intervention.</li>
+  </ol>
+    </div>
+
+</body>
+</html>
